@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif; 
+    margin: 0; 
+    background-color: #f4f4f4; 
+  }
+  header {
+    background-color: #333; 
+    color: #fff;
+    padding: 20px 0; 
+    text-align: center; 
+  }
+  header .container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; /* Justera elementen vertikalt */
+  }
+  header img {
+    height: 100px; 
+    margin-bottom: 10px; 
+  }
+  main {
+    padding: 20px 0; 
+  }
+  .container {
+    width: 80%; 
+    margin: 0 auto; 
+  }
+  .hero {
+    display: flex; /* Använd Flexbox för att styra innehållet */
+    align-items: center; 
+    background-color: #fff; 
+    padding: 20px;
+    margin-bottom: 20px;  
+  }
+  .hero-image {
+    width: 50%; 
+  }
+  .hero-image img {
+    width: 100%; 
+    height: auto; 
+  }
+  .hero-text {
+    width: 50%; 
+    padding: 20px; 
+  }
+  .features {
+    display: flex; 
+    flex-wrap: wrap; /* Låt elementen bryta till nästa rad */
+    justify-content: space-between; 
+    background-color: #fff; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+  }
+  .feature {
+    width: 32%; 
+    text-align: center; 
+    margin-bottom: 20px; 
+  }
+  .feature img {
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 10px; 
+  }
+  .booking {
+    background-color: #fff; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+  }
+  .booking form {
+    display: flex; 
+    flex-direction: column; 
+  }
+  .booking label {
+    margin-bottom: 5px; 
+  }
+  .booking input[type="text"],
+  .booking input[type="email"],
+  .booking input[type="date"],
+  .booking input[type="number"] {
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; /* Grå ram */
+  }
+  .button {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer;/
+  }
+  footer {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;
+    padding: 10px 0; 
+  }

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hotell Börken - Välkommen!</title>
+  <link rel="stylesheet" href="style.css"> </head>
+  <link rel="stylesheet" href="style.css">
+<body>
+  <header>
+    <div class="container">  <!--  Container för att centrera innehållet  -->
+      <img src=" Hottellogo.jfif" alt="Hotell Björken logo"> 
+      
+      <h1>Hotell Björken</h1>
+      <h2>Din oas i naturen</h2>
+    </div>
+  </header>
+  <main>  <!--  Huvudinnehåll  -->
+    <div class="container"> 
+      <section class="hero">  <!--  Hero-sektion  -->
+        <div class="hero-image">
+          <img src=" Hottel Björken.jpg " alt="Bild av hotellet">
+        </div>
+        <div class="hero-text">
+          <h2>Njut av lugn och ro</h2>
+          <p>Välkommen till Hotell Björken, där du kan slappna av i en vacker miljö och 
+             njuta av god mat och bekväma rum.</p>
+          <a href="#bokning" class="button">Boka nu</a>
+        </div>
+      </section>
+      <section class="features">  <!--  Faciliteter  -->
+        <h2>Våra faciliteter</h2>
+        <div class="feature">
+          <img src="facilitet1.png" alt="Bild av spa">
+          <h3>Spa & Wellness</h3>
+          <p>Unna dig en avkopplande behandling i vårt spa.</p>
+        </div>
+        <div class="feature">
+          <img src="resturan.jpg " alt="Bild av restaurang">
+          <h3>Restaurang</h3>
+          <p>Njut av utsökta rätter i vår mysiga restaurang.</p>
+        </div>
+        <div class="feature">
+          <img src="facilitet3.png" alt="Bild av natur">
+          <h3>Vacker Natur</h3>
+          <p>Utforska den vackra omgivningen runt hotellet.</p>
+        </div>
+      </section>
+      <section class="booking" id="bokning">  <!--  Bokningssektion  -->
+        <h2>Boka din vistelse</h2>
+        <form>
+          <label for="name">Namn:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">E-post:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="check-in">Incheckningsdatum:</label>
+          <input type="date" id="check-in" name="check-in" required>
+          <label for="check-out">Utcheckningsdatum:</label>
+          <input type="date" id="check-out" name="check-out" required>
+          <label for="guests">Antal personer:</label>
+          <input type="number" id="guests" name="guests" min="1" required>
+          <button type="submit">Boka nu</button>
+        </form>
+      </section>
+    </div>
+  </main>
+  <footer>  <!--  Sidfot  -->
+    <div class="container">
+      <p>&copy; 2023 Hotell Björken</p>
+    </div>
+  </footer>
+</body>
+</html>
